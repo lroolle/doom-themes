@@ -1,0 +1,10 @@
+---
+description: Write my damn notes
+globs: 
+alwaysApply: false
+---
+[design] Theme porting: Map Emacs color vars to VS Code token scopes systematically
+[best-practice] Dark theme: Keywords & operators both use blue (#51afef) in Emacs
+[best-practice] Light theme: Keywords use red (#e45649), operators use blue (#4078f2)
+[gotcha] HTML tags vs tag names: Tags use blue, tag names use red in both themes
+[optimization] VS Code themes: Use "type": "dark"/"light" for proper system integration
