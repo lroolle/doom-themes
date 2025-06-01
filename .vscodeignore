@@ -1,14 +1,28 @@
+# Files and directories to exclude from the VSIX package
+
+# Development files
 .vscode/**
-.vscode-test/**
-src/**
+.git/**
 .gitignore
-.yarnrc
-vsc-extension-quickstart.md
-**/tsconfig.json
-**/.eslintrc.json
-**/*.map
-**/*.ts
 node_modules/**
+.eslintrc.json
+.prettierrc
 *.vsix
+
+# GitHub Actions setup guide (users don't need this)
+GITHUB_ACTIONS_SETUP.md
+
+# Large original icon (keep only the 128px version)
+doom-themes-icon.png
+
+# Emacs theme files (not needed for VS Code)
+*.el
+
+# Development and build artifacts
+.cursor/**
+*.log
 .DS_Store
 Thumbs.db
+
+# README for quickstart (VS Code generates this)
+vsc-extension-quickstart.md

@@ -1,9 +1,10 @@
 {
-  "name": "doom-one-theme",
-  "displayName": "Doom One Theme",
+  "name": "doom-themes",
+  "displayName": "Doom Themes",
   "description": "A faithful port of the popular Doom Emacs doom-one theme to VS Code. Includes both dark and light variants inspired by Atom One Dark/Light.",
   "version": "1.0.0",
-  "publisher": "doom-one-theme",
+  "publisher": "lroolle",
+  "icon": "doom-themes-icon-128.png",
   "author": {
     "name": "Doom One Theme Contributors"
   },
@@ -52,7 +53,11 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "publish:patch": "vsce publish patch",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major",
+    "vscode:prepublish": "echo 'No build step required for theme extensions'"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.0.0"
