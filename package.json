@@ -2,7 +2,7 @@
   "name": "doom-themes",
   "displayName": "Doom Themes",
   "description": "A faithful port of the popular Doom Emacs doom-one theme to VS Code. Includes both dark and light variants inspired by Atom One Dark/Light.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "lroolle",
   "icon": "doom-themes-icon-128.png",
   "author": {

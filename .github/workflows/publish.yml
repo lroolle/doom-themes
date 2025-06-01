@@ -27,6 +27,7 @@ jobs:
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
+          skipDuplicate: true
           
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
